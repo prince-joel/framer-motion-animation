@@ -1,0 +1,26 @@
+.item{
+  min-height: 40rem;
+  min-width: 20rem;
+  padding: 50px;
+}
+
+.item img{
+  width: 80%;
+  height: 50%;
+  border-radius: 2rem;
+  pointer-events: none;
+  padding: 10%;
+}
+
+.inner-carousel {
+  display: flex;
+  background: rgb(76, 76, 76);
+  /* height: 10%; */
+}
+
+.carousel{
+  cursor: grab;
+  overflow: hidden;
+  background: rgb(215, 216, 215);
+  height: 30rem;
+}
