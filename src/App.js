@@ -15,11 +15,11 @@ function App() {
       }}  whileHover={{ scale: 1.2 }}   initial={{ opacity: 0, scale: 0.5 }}     
       >Animation made easy with Framer Motion</motion.h1>
 
-      <motion.div ref={carousel}  className="carousel" >
-        <motion.div animate={{scale: [1, 0.5,1, 1, 1],
-      rotate: [10, 90, 100, 180, 360], 
+      <motion.div   className="carousel" >
+        <motion.div animate={{scale: [1, 1,1, 1, 1],
+      rotate: [0, 30, 60, 240, 360], 
     }} drag="x" 
-        dragConstraints={{right: 0, left:-1200}} 
+        dragConstraints={{right: 0, left:-1250}} 
         dragTransition={{ bounceStiffness: 600, bounceDamping: 8 }} 
         className="inner-carousel">
           {images.map(image =>{
