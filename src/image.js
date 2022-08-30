@@ -1,8 +1,7 @@
-import ethLogo from "./images/ethLogo.png";
-import Solana from "./images/imagesSolana.jpg";
-import poly from "./images/polyLogo.png";
-import btc from "./images/bitcoin_PNG1.png";
+import fox from "./images/pexels-fox-1071249.jpg";
+import jill from "./images/jill.jpg";
+import cha1 from "./images/cha1.jpg";
+import cha2 from "./images/cha2.jpg";
 
 
-
-export default[ethLogo, Solana, poly,btc]
+export default[fox, jill, cha1,cha2]
