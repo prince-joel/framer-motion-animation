@@ -1,13 +1,13 @@
 .item{
   min-height: 10rem;
   min-width: 30rem;
-  padding: 10px;
+  padding: 5px;
 }
 
 .item img{
-  width: 80%;
-  height: 30%;
-  border-radius: 2rem;
+  width: 60%;
+  height: 50%;
+  border-radius: 1rem;
   pointer-events: none;
   padding: 15%;
 }
@@ -15,12 +15,12 @@
 .inner-carousel {
   display: flex;
   background: rgb(76, 76, 76);
-  /* height: 10%; */
+  height: 23rem;
 }
 
 .carousel{
   cursor: grab;
   overflow: hidden;
   background: rgb(215, 216, 215);
-  height: 25rem;
+  height: 23rem;
 }
